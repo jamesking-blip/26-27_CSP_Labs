@@ -32,6 +32,13 @@ def main():
 
 
     # Draw bottom-right corner
+
+
+
+
+
+
+    # Draw bottom-left corner
     x1 = 10
     y1 = 3
     x2 = 20
@@ -42,16 +49,6 @@ def main():
         x2 += 20
 
 
-
-    # Draw bottom-left corner
-    x1 = 10
-    y1 = 10
-    x2 = 15
-    y2 = 640
-    for i in range(50):
-        draw_line(t, x1, y1, x2, y2)
-        y1 += 13
-        x1 += 20
 
     # Draw top-right corner
     x1 = 10
